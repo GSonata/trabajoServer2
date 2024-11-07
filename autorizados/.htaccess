@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Comprobacion"
+AuthUserFile /etc/apache2/claves.txt
+AuthGroupFile /etc/apache2/grupos.txt
+Require group admin
